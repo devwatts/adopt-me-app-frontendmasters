@@ -3,12 +3,10 @@ import { Component } from "react";
 class Carousel extends Component{
     constructor(){
         super();
-
         this.state = {
             active:0
         }
     }
-
     static defaultProps = {
         images: ["http://pets-images.dev-apis.com/pets/none.jpg"]
     }
